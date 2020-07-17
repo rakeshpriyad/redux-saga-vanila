@@ -1,0 +1,293 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "users": [
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 49
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 501
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 601
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 701
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 801
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 901
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 902
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 903
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 904
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 905
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 906
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 907
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 908
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 909
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 910
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 911
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 912
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 913
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 914
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 915
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 916
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 917
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 918
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 919
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 920
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 921
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 922
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 923
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 924
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 925
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 926
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 927
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 928
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 929
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 930
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 931
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 932
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 933
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 934
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 935
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 936
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 937
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 938
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 939
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 940
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 941
+    },
+    {
+      "name": "rakesh",
+      "age": "35",
+      "salary": "200K",
+      "id": 942
+    }
+  ]
+}
