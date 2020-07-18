@@ -8,7 +8,7 @@ export const LOAD_USERS_SUCCESS = 'REDUX_SAGA_LOAD_USERS_SUCCESS';
 export const LOAD_USERS_ERROR = 'REDUX_SAGA_LOAD_USERS_ERROR';
 
 store.dispatch({ type: 'GET_USER' });
-let lastId =401
+let lastId = 49
 const user = createUser("rakesh", "35", "200K");
 store.dispatch({ type: 'ADD_USER', payload: user });
 const user3 = {...createUser("rakesh", "35", "200K"), id: lastId};

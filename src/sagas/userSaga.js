@@ -2,35 +2,32 @@ import { takeLatest, call, put, all } from 'redux-saga/effects';
 
 import * as actions from '../actions/actionCreators'
 import {fetchUsers, submitSaveUser, submitUpdateUser, submitRemoveUser} from '../api/api.js'
+import {getUserFailed,userReceived, saveUserSuccess, updateUserSuccess,removeUserSuccess, addUserFailed,updateUserFailed, removeUserFailed}  from '../actions/userActions'
 
-export const saveUser = (user) => ({
-    type: actions.SAVE_USER,
-    payload: user
-});
 
 function* callFetchUsers(action) {
     const result = yield call(fetchUsers, action.data);
     if (result.errors) {
         console.log("Error occured : " + result.errors)
-        yield put({ type: 'GET_USER_FAILED', errors: result.errors });
+        yield put(getUserFailed(result.errors));
     } else {
         console.log("data received", result);
-        yield put({ type: "USER_RECEIVED", users: result.data });
+        yield put(userReceived(result.data));
     }
 }
 
 function* fetchUserSaga() {
-    yield takeLatest('GET_USER', callFetchUsers);
+    yield takeLatest(actions.GET_USER, callFetchUsers);
 }
 
 function* callSaveUser(action) {
     const result = yield call(submitSaveUser, action.payload);
     if (result.errors) {
         console.log("Error occured : " + result.errors)
-        yield put({ type: 'ADD_USER_FAILED', errors: result.errors });
+        yield put(addUserFailed(result.errors));
     } else {
         console.log("User Saved " + result);
-        yield put({ type: "SAVE_USER_SUCCESS_FULL" });
+        yield put(saveUserSuccess());
     }
 }
 
@@ -42,10 +39,10 @@ function* callUpdateUser(action) {
     const result = yield call(submitUpdateUser, action.payload);
     if (result.errors) {
         console.log("Error occured : " + result.errors)
-        yield put({ type: 'UPDATE_FAILED', errors: result.errors });
+        yield put(updateUserFailed(result.errors));
     } else {
         console.log("User Updated " + result);
-        yield put({ type: "UPDATE_USER_SUCCESS_FULL" });
+        yield put(updateUserSuccess());
     }
 }
 
@@ -57,10 +54,10 @@ function* callDeleteUser(action) {
     const result = yield call(submitRemoveUser, action.payload);
     if (result.errors) {
         console.log("Error occured : " + result.errors)
-        yield put({ type: 'REMOVE_FAILED', errors: result.errors });
+        yield put(removeUserFailed(result.errors));
     } else {
         console.log("User Removed " + result);
-        yield put({ type: "REMOVE_USER_SUCCESS_FULL" });
+        yield put(removeUserSuccess());
     }
 }
 
@@ -70,6 +67,7 @@ function* deleteUserSaga() {
 
 export function* helloSaga() {
     console.log('Hello Sagas!')
+    yield put({type : "HELLO_SAGA"});
 }
 
 export default function* rootSaga() {
